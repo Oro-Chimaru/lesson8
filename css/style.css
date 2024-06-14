@@ -1,0 +1,261 @@
+.div-wraper {
+    width: 800px;
+    height: 800px;
+    background-color: blue;
+    position: relative;
+}
+.stock {
+    width: 800px;
+    height: 1000px;
+}
+.ball {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 365px;
+    top: 950px;
+    animation-name: ballmove;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
+    animation-delay: 2s;
+}
+.skittle1 {
+    width: 10px;
+    height: 30px;
+    position: absolute;
+    left: 370px;
+    top: 365px;
+    animation-name: skittle1move;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: inherit;
+    animation-delay: 5s;
+}
+.skittle2 {
+    width: 10px;
+    height: 30px;
+    position: absolute;
+    left: 385px;
+    top: 365px;
+    animation-name: skittle2move;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: inherit;
+    animation-delay: 5s;
+}
+.skittle3 {
+    width: 10px;
+    height: 30px;
+    position: absolute;
+    left: 400px;
+    top: 365px;
+    animation-name: skittle3move;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: inherit;
+    animation-delay: 5s;
+}
+.skittle4 {
+    width: 10px;
+    height: 30px;
+    position: absolute;
+    left: 415px;
+    top: 365px;
+    animation-name: skittle4move;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: inherit;
+    animation-delay: 5s;
+}
+.skittle5 {
+    width: 10px;
+    height: 30px;
+    position: absolute;
+    left: 378px;
+    top: 375px;
+    animation-name: skittle5move;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: inherit;
+    animation-delay: 5s;
+}
+.skittle6 {
+    width: 10px;
+    height: 30px;
+    position: absolute;
+    left: 393px;
+    top: 375px;
+    animation-name: skittle6move;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: inherit;
+    animation-delay: 5s;
+}
+.skittle7 {
+    width: 10px;
+    height: 30px;
+    position: absolute;
+    left: 408px;
+    top: 375px;
+    animation-name: skittle7move;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: inherit;
+    animation-delay: 5s;
+}
+.skittle8 {
+    width: 10px;
+    height: 30px;
+    position: absolute;
+    left: 386px;
+    top: 385px;
+    animation-name: skittle8move;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: inherit;
+    animation-delay: 5s;
+}
+.skittle9 {
+    width: 10px;
+    height: 30px;
+    position: absolute;
+    left: 402px;
+    top: 385px;
+    animation-name: skittle9move;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: inherit;
+    animation-delay: 5s;
+}
+.skittle10 {
+    width: 10px;
+    height: 30px;
+    position: absolute;
+    left: 395px;
+    top: 395px;
+    animation-name: skittle10move;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: inherit;
+    animation-delay: 5s;
+}
+
+@keyframes ballmove {
+    from {top: 900px;}
+    to {top: 425px;}
+    0% {transform: rotate(10deg);}
+    5% {transform: rotate(30deg);}
+    10% {transform: rotate(50deg);}
+    15% {transform: rotate(80deg);}
+    20% {transform: rotate(110deg);}
+    25% {transform: rotate(140deg);}
+    30% {transform: rotate(170deg);}
+    35% {transform: rotate(200deg);}
+    40% {transform: rotate(230deg);}
+    45% {transform: rotate(260deg);}
+    50% {transform: rotate(290deg);}
+    55% {transform: rotate(320deg);}
+    60% {transform: rotate(350deg);}
+    65% {transform: rotate(380deg);}
+    70% {transform: rotate(410deg);}
+    75% {transform: rotate(440deg);}
+    80% {transform: rotate(470deg);}
+    85% {transform: rotate(500deg);}
+    90% {transform: rotate(530deg);}
+    95% {transform: rotate(560deg);}
+    100% {transform: rotate(590deg);}
+}
+@keyframes skittle1move {
+    from {top: 360px;}
+    to {left: 360px;}
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(-32deg);}
+    45% {transform: rotate(-61deg);}
+    80% {transform: rotate(-81deg);}
+    100% {transform: rotate(-100deg);}
+}
+@keyframes skittle2move {
+    from {top: 360px;}
+    to {left: 370px;}
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(-35deg);}
+    45% {transform: rotate(-65deg);}
+    80% {transform: rotate(-85deg);}
+    100% {transform: rotate(-100deg);}
+}
+@keyframes skittle3move {
+    from {top: 360px;}
+    to {left: 395px;}
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(28deg);}
+    45% {transform: rotate(61deg);}
+    80% {transform: rotate(81deg);}
+    100% {transform: rotate(95deg);}
+}
+@keyframes skittle4move {
+    from {top: 360px;}
+    to {left: 410px;}
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(-35deg);}
+    45% {transform: rotate(-65deg);}
+    80% {transform: rotate(-85deg);}
+    100% {transform: rotate(-100deg);}
+}
+@keyframes skittle5move {
+    from {top: 375px;}
+    to {left: 380px;}
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(65deg);}
+    45% {transform: rotate(95deg);}
+    80% {transform: rotate(125deg);}
+    100% {transform: rotate(150deg);}
+}
+@keyframes skittle6move {
+    from {top: 375px;}
+    to {left: 380px;}
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(20deg);}
+    45% {transform: rotate(40deg);}
+    80% {transform: rotate(60deg);}
+    100% {transform: rotate(90deg);}
+}
+@keyframes skittle7move {
+    from {top: 375px;}
+    to {left: 380px;}
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(15deg);}
+    45% {transform: rotate(35deg);}
+    80% {transform: rotate(55deg);}
+    100% {transform: rotate(80deg);}
+}
+@keyframes skittle8move {
+    from {top: 385px;}
+    to {left: 380px;}
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(25deg);}
+    45% {transform: rotate(45deg);}
+    80% {transform: rotate(75deg);}
+    100% {transform: rotate(90deg);}
+}
+@keyframes skittle9move {
+    from {top: 385px;}
+    to {left: 380px;}
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(-65deg);}
+    45% {transform: rotate(-85deg);}
+    80% {transform: rotate(-105deg);}
+    100% {transform: rotate(-120deg);}
+}
+@keyframes skittle10move {
+    from {top: 395px;}
+    to {left: 380px;}
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(45deg);}
+    45% {transform: rotate(75deg);}
+    80% {transform: rotate(80deg);}
+    100% {transform: rotate(100deg);}
+}
+
+
+
